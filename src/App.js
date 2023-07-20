@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route , Link, Routers } from "react-router-dom";
+import { BrowserRouter as Router, Route , Link, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
        <Router>
-        <Routers>
+        <Routes>
           <Route exect path="/" element={<Navbar/>}/>
-        </Routers>
+        </Routes>
        </Router>
       </header>
     </div>
